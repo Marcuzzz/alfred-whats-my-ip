@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "alfred-whats-my-ip"
+version = "1.0.0"
+description = "alfred-whats-my-ip"
+documentation = "https://marcotten.com/README.md"
+homepage = "https://marcotten.com"
+license = "MIT"
+
+authors = [
+    "Marc Otten <marc@mustbe.nl>"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+alfred-pyflow = "^0.4.5"
+certifi = "2024.2.2"
+charset-normalizer = "3.3.2"
+idna = "3.6"
+requests = "^2.31.0"
+netifaces = "^0.11.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+coverage = "^7.2.5"
+ddt = "^1.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
