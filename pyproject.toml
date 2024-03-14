@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "alfred-whats-my-ip"
-version = "1.0.0"
+version = "1.0"
 description = "alfred-whats-my-ip"
 documentation = "https://marcotten.com/README.md"
 homepage = "https://marcotten.com"

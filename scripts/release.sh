@@ -51,7 +51,7 @@ open "./releases/$FILENAME"
 ####### Upload release to GitHub #########
 ####### install github cli separately ####
 
-if [ "$1" == "release" ]; then
+if [ "$1" ]; then
     # Create a new release...
     gh release create "v$VERSION" "./releases/$FILENAME" --notes "Released $NAME v$VERSION"
 fi

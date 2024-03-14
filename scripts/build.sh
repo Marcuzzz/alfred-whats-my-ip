@@ -15,6 +15,8 @@ rm -rf *.so black blackd blib2to3 distutils* pkg_resources pip* setuptools* whee
 cd ..
 
 echo "Copy source code"
+
+cp .venv/lib/python3.12/site-packages/netifaces.cpython-312-darwin.so ./dist
 cp -r ./src/* dist
 
 echo "Finished"
