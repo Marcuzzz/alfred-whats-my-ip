@@ -4,8 +4,6 @@
 
 ### USAGE
 
-#### with default values (15 letters, 5 digits and 5 symbols)
-
 ![default](screenshots/default.png)
 
 ### required settings
